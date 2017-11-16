@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="Blog.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>My Static Blog Articles</title>
+	<script>
+		$(function(){
+			var blog = new Blog("files.json");
+		})
+	</script>
+</head>
+<body>
+	<div class="container" id="mainContainer">
+		<div class="header" id="header">
+			<h1>Blog Articles</h1>
+		</div>
+		<div class="container container-left">
+			<div id="leftMenu">
+				<ul class="nav nav-left">
+					<li class="nav-item nav-page-item"><a href="#"><h3 id="homeButton">Home</h3></a></li>
+				</ul>
+				<div class="centered v-spaced"><b>Word count: </b><span id="count"></span></div>
+			</div>
+		</div>
+		<div class="container" id="mainContent" contenteditable="false">
+				
+		</div>					
+	</div>
+</body>
+</html>

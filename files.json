@@ -1,0 +1,24 @@
+[
+	{
+		"topic_title":"Lorem",
+		"articles":[
+			{
+				"title":"Lorem 1",
+				"url":"/files/lorem1.html"
+			},
+			{
+				"title":"Lorem 2",
+				"url":"/files/lorem2.html"
+			}
+		]
+	},
+	{
+		"topic_title":"Ipsum",
+		"articles":[
+			{
+				"title":"Ipsum 1",
+				"url":"/files/ipsum1.html"
+			}
+		]
+	}
+]
