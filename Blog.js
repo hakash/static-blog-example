@@ -82,7 +82,7 @@ Blog.prototype.loadArticle = function(){
 		url = url.split("//")[1];
 	}
 	if(!url){
-		url = "/files/home.html";
+		url = "files/home.html";
 	}
 
 	$.get(url,{"_":new Date().getTime()},function(data){
