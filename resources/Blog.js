@@ -1,7 +1,6 @@
 function Blog(listFile){
-	if(window.blog != this){
-		window.blog = this;
-	}
+
+	window.blog = this;
 
 	this.menu = $("#leftMenu ul");
 	this.content = $("#mainContent");
