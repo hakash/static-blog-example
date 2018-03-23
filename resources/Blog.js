@@ -56,7 +56,7 @@ Blog.prototype.renderArticleMenuSection = function(section){
 	submenu.append(ul);
 
 	return submenu;
-}
+};
 
 Blog.prototype.renderArticleMenuItem = function(article){
 	var a = $("<a>");
@@ -67,7 +67,7 @@ Blog.prototype.renderArticleMenuItem = function(article){
 	li.append(a);
 
 	return li;
-}
+};
 
 Blog.prototype.loadArticle = function(){
 	
